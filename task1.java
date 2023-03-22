@@ -38,7 +38,7 @@ public class task1 {
     public static void remove(String key, HashMap<String, ArrayList<Integer>> map) {
         if (map.containsKey(key)) {
             map.remove(key);
-            System.out.println("\nПосле удаления: ");
+            System.out.println("\nПосле удаления " + key +   ":");
             showPhoneBook(map);
 
         } else
